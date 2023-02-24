@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-require 'JSON'
+
 require 'open-uri'
 
 url = "https://tmdb.lewagon.com/movie/top_rated"
