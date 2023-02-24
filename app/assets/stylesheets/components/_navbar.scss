@@ -1,0 +1,25 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: yellow;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.navbar{
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+.links{
+  display: flex;
+}
+.links a{
+  margin-left: 10px;
+  margin-right: 10px;
+}

@@ -11,6 +11,16 @@
   </head>
 
   <body>
+  <div class="navbar">
+    <h2><%= link_to lists_path do %>
+<%= image_tag "https://cdn-icons-png.flaticon.com/512/408/408477.png", alt: "Le Wagon", width: 28 %>
+<% end %>
+ </h2>
+    <div class="links">
+      <p><%= link_to "My lists", lists_path  %></p>
+      <p><%= link_to "New list", new_list_path  %></p>
+    </div>
+  </div>
     <%= yield %>
   </body>
 </html>
